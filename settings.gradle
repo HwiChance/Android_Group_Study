@@ -1,0 +1,2 @@
+include ':app', ':Part2_5', ':Part2_6'
+rootProject.name='Android_Group_Study'
