@@ -1,12 +1,12 @@
 # 6장 사용자 이벤트 처리
 ## 목록
-[6.1.]() 델리게이션 이벤트 모델
-  - [6.1.1.]() 이벤트 프로그램 구조
-  - [6.1.2.]() 다양한 이벤트 처리
+[6.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter6.md#61-%EB%8D%B8%EB%A6%AC%EA%B2%8C%EC%9D%B4%EC%85%98-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%AA%A8%EB%8D%B8) 델리게이션 이벤트 모델
+  - [6.1.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter6.md#611-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EA%B5%AC%EC%A1%B0) 이벤트 프로그램 구조
+  - [6.1.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter6.md#612-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%B2%98%EB%A6%AC) 다양한 이벤트 처리
 
-[6.2.]() 하이어라키 이벤트 모델
-  - [6.2.1.]() 터치 이벤트
-  - [6.2.2.]() 키 이벤트
+[6.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter6.md#62-%ED%95%98%EC%9D%B4%EC%96%B4%EB%9D%BC%ED%82%A4-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%AA%A8%EB%8D%B8) 하이어라키 이벤트 모델
+  - [6.2.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter6.md#621-%ED%84%B0%EC%B9%98-%EC%9D%B4%EB%B2%A4%ED%8A%B8) 터치 이벤트
+  - [6.2.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter6.md#622-%ED%82%A4-%EC%9D%B4%EB%B2%A4%ED%8A%B8) 키 이벤트
 
 ## 6.1. 델리게이션 이벤트 모델
 뷰에서 발생하는 이벤트를 처리하기 위한 모델

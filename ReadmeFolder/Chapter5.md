@@ -1,16 +1,16 @@
 # 5장  다양한 사용자 알림 효과
 ## 목록
-[5.1.]() 진동과 소리  
-  - [5.1.1.]() 진동 울리기  
-  - [5.1.2.]() 소리 울리기  
+[5.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter5.md#51-%EC%A7%84%EB%8F%99%EA%B3%BC-%EC%86%8C%EB%A6%AC) 진동과 소리  
+  - [5.1.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter5.md#511-%EC%A7%84%EB%8F%99-%EC%9A%B8%EB%A6%AC%EA%B8%B0) 진동 울리기  
+  - [5.1.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter5.md#512-%EC%86%8C%EB%A6%AC-%EC%9A%B8%EB%A6%AC%EA%B8%B0) 소리 울리기  
 
-[5.2.]() 다이얼로그
-  - [5.2.1.]() 토스트(Toast)
-  - [5.2.2.]() 알림창(AlertDialog)
-  - [5.2.3.]() 목록(AlertDialog)
-  - [5.2.4.]() 날짜 선택(DatePickerDialog)
-  - [5.2.5.]() 시간 선택(TimePickerDialog)
-  - [5.2.6.]() 커스텀 다이얼로그(AlertDialog)
+[5.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter5.md#52-%EB%8B%A4%EC%9D%B4%EC%96%BC%EB%A1%9C%EA%B7%B8) 다이얼로그
+  - [5.2.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter5.md#521-%ED%86%A0%EC%8A%A4%ED%8A%B8toast) 토스트(Toast)
+  - [5.2.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter5.md#522-%EC%95%8C%EB%A6%BC-%EC%B0%BDalertdialog) 알림창(AlertDialog)
+  - [5.2.3.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter5.md#523-%EB%AA%A9%EB%A1%9Dalertdialog) 목록(AlertDialog)
+  - [5.2.4.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter5.md#524-%EB%82%A0%EC%A7%9C-%EC%84%A0%ED%83%9Ddatepickerdialog) 날짜 선택(DatePickerDialog)
+  - [5.2.5.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter5.md#525-%EC%8B%9C%EA%B0%84-%EC%84%A0%ED%83%9Dtimepickerdialog) 시간 선택(TimePickerDialog)
+  - [5.2.6.](https://github.com/HwiChance/Android_Group_Study/blob/master/ReadmeFolder/Chapter5.md#526-%EC%BB%A4%EC%8A%A4%ED%85%80-%EB%8B%A4%EC%9D%B4%EC%96%BC%EB%A1%9C%EA%B7%B8alertdialog) 커스텀 다이얼로그(AlertDialog)
 
 ## 5.1. 진동과 소리
 ### 5.1.1. 진동 울리기
