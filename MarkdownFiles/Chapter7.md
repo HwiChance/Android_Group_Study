@@ -1,13 +1,13 @@
 # 7장 리소스 활용 및 스마트폰 크기 호환성
 ## 목록
-[7.1.]() 안드로이드 리소스
-  - [7.1.1.]() 리소스 종류
-  - [7.1.2.]() 다양한 리소스 활용
+[7.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter7.md#71-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EB%A6%AC%EC%86%8C%EC%8A%A4) 안드로이드 리소스
+  - [7.1.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter7.md#711-%EB%A6%AC%EC%86%8C%EC%8A%A4-%EC%A2%85%EB%A5%98) 리소스 종류
+  - [7.1.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter7.md#712-%EB%8B%A4%EC%96%91%ED%95%9C-%EB%A6%AC%EC%86%8C%EC%8A%A4-%ED%99%9C%EC%9A%A9) 다양한 리소스 활용
 
-[7.2.]() 스마트폰 크기 호환성
-  - [7.2.1.]() 리소스 폴더명 조건 명시법
-  - [7.2.2.]() DisplayMetrics
-  - [7.2.3.]() 논리적 단위로 스마트폰 크기 호환성 확보
+[7.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter7.md#72-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0-%ED%81%AC%EA%B8%B0-%ED%98%B8%ED%99%98%EC%84%B1) 스마트폰 크기 호환성
+  - [7.2.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter7.md#721-%EB%A6%AC%EC%86%8C%EC%8A%A4-%ED%8F%B4%EB%8D%94%EB%AA%85-%EC%A1%B0%EA%B1%B4-%EB%AA%85%EC%8B%9C%EB%B2%95) 리소스 폴더명 조건 명시법
+  - [7.2.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter7.md#722-displaymetrics) DisplayMetrics
+  - [7.2.3.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter7.md#722-displaymetrics) 논리적 단위로 스마트폰 크기 호환성 확보
 
 ## 7.1. 안드로이드 리소스
 리소스는 안드로이드 프로그램 개발 생산성과 유지보수에 도움을 줌
