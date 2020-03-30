@@ -11,6 +11,7 @@ import android.os.Vibrator;
 import android.view.View;
 import android.widget.Button;
 
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     Button btn_Vibration;
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_Custom_Sound.setOnClickListener(this);
     }
 
+
     @Override
     public void onClick(View v) {
         if(v == btn_Vibration) {
@@ -42,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         else if(v == btn_PatternVibration) {
             Vibrator pattern_vib = (Vibrator) getSystemService(VIBRATOR_SERVICE);
-            pattern_vib.vibrate(new long[] {500, 1000, 500, 1000}, 0);
+            pattern_vib.vibrate(new long[] {500, 1000, 500, 1000}, -1);
         }
         else if(v == btn_System_Beep) {
             Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);

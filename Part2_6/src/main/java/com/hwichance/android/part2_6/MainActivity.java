@@ -40,13 +40,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         repeatCheckView.setOnCheckedChangeListener(this);
         vibrateCheckView.setOnCheckedChangeListener(this);
         switchView.setOnCheckedChangeListener(this);
-
     }
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         if(event.getAction() == MotionEvent.ACTION_DOWN) {
             initX = event.getRawX();
+            showToast(Float.toString(initX));
         }
         else if(event.getAction() == MotionEvent.ACTION_UP) {
             float diffX = initX - event.getRawX();
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void showToast(String message) {
-        Toast toast=Toast.makeText(this, message, Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(this, message, Toast.LENGTH_SHORT);
         toast.show();
     }
 

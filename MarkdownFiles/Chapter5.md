@@ -193,8 +193,8 @@
   ```
 - 항목 선택 - 라디오 버튼으로 설정
   ```Java
-  setSingleChoiceItems(int itemsId, int checkedItems, DialogInterface.OnClickListener)
-  setSingleChoiceItems(CharSequence[] items, int checkedItems, DialogInterface.OnClickListener)
+  setSingleChoiceItems(int itemsId, int checkedItem, DialogInterface.OnClickListener)
+  setSingleChoiceItems(CharSequence[] items, int checkedItem, DialogInterface.OnClickListener)
   ```
 
 ### 5.2.4. 날짜 선택(DatePickerDialog)
@@ -240,7 +240,7 @@
   View view = inflater.inflate(R.layout.dialog_custom, null);
   builder.setView(view);
   ```
-  - `R.layout.dialog_custom`: 다이얼로그 화면을 구성하는 레이아웃 XML
-  - LayoutInflater 클래스를 이용하여 레이아웃 XML 파일을 초기화하고 뷰 생성
-    > LayoutInflater - 레이아웃 XML 파일을 초기화고 View 객체로 인스턴스화하기 위해 사용되는 클래스
+  - `R.layout.dialog_custom`: 다이얼로그 화면을 구성하는 레이아웃 `XML`
+  - LayoutInflater 클래스를 이용하여 레이아웃 `XML` 파일을 초기화하고 뷰 생성
+    > LayoutInflater - 레이아웃 `XML` 파일을 초기화고 View 객체로 인스턴스화하기 위해 사용되는 클래스
   - `builder.setView(view)`: 초기화된 뷰를 `AlertDialog`의 본문에 지정
