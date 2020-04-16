@@ -7,3 +7,9 @@
 
 ### Week 2 (04/01)
 - **7장:** [리소스 활용 및 스마트폰 크기 호환성](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter7.md)
+
+### Week 3 (04/09)
+- 다양한 화면 크기 지원
+
+### Week 4 (04/16)
+- **8장:** [DBMS을 이용한 데이터 영속화](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter8.md)
