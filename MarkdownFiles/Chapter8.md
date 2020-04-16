@@ -8,6 +8,7 @@
 [8.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter8.md#82-realm%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%98%81%EC%86%8D%ED%99%94) Realm을 이용한 데이터 영속화
   - [8.2.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter8.md#822-realm-%EC%82%AC%EC%9A%A9-%EC%84%A4%EC%A0%95) Realm 소개
   - [8.2.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter8.md#823-realm-%EC%82%AC%EC%9A%A9) Realm 사용 설정
+  - [8.2.3.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter8.md#823-realm-%EC%82%AC%EC%9A%A9) Realm 사용
 
 ## 8.1. SQLite을 이용한 영속화
 #### SQLite란?
