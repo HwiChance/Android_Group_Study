@@ -1,22 +1,22 @@
 # 8장 DBMS을 이용한 데이터 영속화
 ## 목록
-[8.1.]() SQLite을 이용한 영속화
-  - [8.1.1.]() SQLiteDatabase 클래스
-  - [8.1.2.]() SQLiteOpenHelper 클래스
-  - [8.1.3.]() insert(), query(), update(), delete() 함수 이용
+[8.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter8.md#81-sqlite%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%98%81%EC%86%8D%ED%99%94) SQLite을 이용한 영속화
+  - [8.1.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter8.md#811-sqlitedatabase-%ED%81%B4%EB%9E%98%EC%8A%A4) SQLiteDatabase 클래스
+  - [8.1.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter8.md#812-sqliteopenhelper-%ED%81%B4%EB%9E%98%EC%8A%A4) SQLiteOpenHelper 클래스
+  - [8.1.3.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter8.md#813-insert-query-update-delete-%ED%95%A8%EC%88%98-%EC%9D%B4%EC%9A%A9) insert(), query(), update(), delete() 함수 이용
 
-[8.2.]() Realm을 이용한 데이터 영속화
-  - [8.2.1.]() Realm 소개
-  - [8.2.2.]() Realm 사용 설정
+[8.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter8.md#82-realm%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%98%81%EC%86%8D%ED%99%94) Realm을 이용한 데이터 영속화
+  - [8.2.1.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter8.md#822-realm-%EC%82%AC%EC%9A%A9-%EC%84%A4%EC%A0%95) Realm 소개
+  - [8.2.2.](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter8.md#823-realm-%EC%82%AC%EC%9A%A9) Realm 사용 설정
 
 ## 8.1. SQLite을 이용한 영속화
 #### SQLite란?
 - SQLite는 오픈소스로 만들어진 관계형 데이터베이스
 - 복잡하고 구조화된 애플리케이션 데이터를 저장하고 관리
-- 프로세스가 아닌 라이브러리를 이용하므로 DB는 앱의 일부로 통합됨
-- SQLite 데이터는 파일 형태로 `data/data/[package_name]/databases`에 저장됨
+- 서버가 아니라 애플리케이션에 넣어 사용하는 비교적 가벼운 DB
+- SQLite 데이터는 파일 형태로 `../data/data/[package_name]/databases`에 저장됨
 #### 로컬 데이터베이스를 사용하는 이유?
-- 서버에서 받은 데이터를 일정 정도 스마트폰 내부에 저장하여 네트워크 연결이 끊기는 상황에 대응하기 위함
+서버에서 받은 데이터를 일정 정도 스마트폰 내부에 저장하여 네트워크 연결이 끊기는 상황에 대응하기 위함
 
 ### 8.1.1. SQLiteDatabase 클래스
 - DB에 데이터를 저장, 호출, 수정, 삭제하는 모든 SQL 질의문은 `SQLiteDatabase`클래스를 이용하여 수행함
@@ -82,6 +82,7 @@
   ```
   - `getWritableDatabase()`: 읽기 또는 쓰기용으로 DB 생성(또는 열기)
   - `getReaderableDatabase()`: 디스크가 꽉차있지 않거나 DB가 읽기 전용으로 열려야 하는것이 아니라면 `getWritableDatabase()`와 같은 DB 오브젝트를 반환
+  - `getWritableDatabase()`메소드나 `getReaderableDatabase()`메소드가 호출되기 전까지 실제 DB는 생성되지 않음
 
 ### 8.1.3. insert(), query(), update(), delete() 함수 이용
 - `rawQuery()`나 `execSQL()`과 달리 SQL문을 만들기 위한 정보만 매개변수로 주면 자동으로 SQL문을 만들어 실행하는 메소드
@@ -111,7 +112,7 @@
 ### 8.2.1. Realm 소개
 - [https://realm.io](https://realm.io)에서 오픈소스로 만들어지고 있는 로컬 DB
 - `SQLite`와의 가장 큰 차이점은 ORM을 제공한다는 것
-  > ORM: Object-Relational Mappings의 약어로 DB 이용 시 SQL을 사용하는 대신 OOP의 객체를 해석해 데이터를 저장하거나 획득해주는 방식을 말함
+  > ORM: Object-Relational Mappings의 약어로 DB 이용 시 SQL을 사용하는 대신 OOP의 객체를 스스로 해석해 데이터를 저장하거나 획득해주는 방식을 말함
 
 - `SQLite`보다 훨씬 빠름
 ### 8.2.2. Realm 사용 설정
