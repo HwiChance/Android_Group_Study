@@ -188,7 +188,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 - `data`: 돌아오면서 넘겨 받은 인텐트
 
 ## 14.2. 구글 기본 앱 연동
-### 14.2.1. 주소록
+### 14.2.1. 주소록 앱
 ```java
 Intent intent = new Intent(Intent.ACTION_PICK);
 intent.setData(ContactsContract.Contacts.CONTENT_URI);
