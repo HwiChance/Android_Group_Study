@@ -1,2 +1,2 @@
-include ':app', ':Part2_5', ':Part2_6', ':Part2_7', ':Part2_mission1', ':Part2_mission2', ':Part2_mission3', ':Part3_8'
+include ':app', ':Part2_5', ':Part2_6', ':Part2_7', ':Part2_mission1', ':Part2_mission2', ':Part2_mission3', ':Part3_8', ':Part5_14'
 rootProject.name='Android_Group_Study'
