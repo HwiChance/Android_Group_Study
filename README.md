@@ -17,3 +17,6 @@
 ### Week 5 (04/22)
 - [Android Coding Convention](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/CodingConvention.md)
 - **14장:** [인텐트와 구글 기본 앱 연동](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter14.md)
+
+### Week 6 (04/30)
+- **17장:** [Support 라이브러리 활용](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter17.md)
