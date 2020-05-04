@@ -191,7 +191,7 @@
   - `IPlayService.Stub.asInterface(service)`: 서비스의 `onBind()`에서 반환한 객체 획득
 
 ## 20.3. 인텐트 서비스(IntentService)
-![인텐트 서비스 생명주기](./img/intentservice_lifecycle.png)
+![인텐트 서비스 생명주기](./img/intentservice_lifecycle.PNG)
 - `stopService()`가 호출되지 않아도 자신에게 주어진 업무만 끝나면 자동으로 종료되는 서비스
 - 백그라운드에서 수행되다 자동으로 종료되는 업무를 구현할 때 사용됨
 - `onHandleIntent()`의 수행이 끝나면 자동으로 종료
