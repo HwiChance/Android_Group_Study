@@ -20,3 +20,6 @@
 
 ### Week 6 (04/30)
 - **17장:** [Support 라이브러리 활용](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter17.md)
+
+### Week 7 (05/06)
+- **20장:** [서비스 컴포넌트](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter20.md)
