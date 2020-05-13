@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = new Intent(this, PlayService.class);
         intent.putExtra("filePath", filePath);
         startService(intent);
-        
     }
 
     class ProgressThread extends Thread {

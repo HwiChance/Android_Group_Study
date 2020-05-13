@@ -23,3 +23,6 @@
 
 ### Week 7 (05/06)
 - **20장:** [서비스 컴포넌트](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter20.md)
+
+### Week 8 (05/14)
+- **25장:** [HTTP 통신](https://github.com/HwiChance/Android_Group_Study/blob/master/MarkdownFiles/Chapter25.md)
